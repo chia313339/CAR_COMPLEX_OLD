@@ -7,12 +7,16 @@ setwd("/home/cxl_etl/datastage")
 dataset=read_csv('CAR_ABT_GROUP2_20180615.csv')
 dim(dataset) # 534361*320
 
+# testdata=dataset[intersect(which(dataset[,'START_DATETIME']>='2016-01-01'),which(dataset[,'START_DATETIME']<'2017-01-01')),]
+# for_test2=testdata[1:6,]
+
 # POLICY_RESULT_CODE (自核/承保)
 dataset$POLICY_RESULT_CODE=as.factor(dataset$POLICY_RESULT_CODE)
 
 # 移除欄位:契約編號,引擎號碼
 remove<- names(dataset)  %in% c('CONTRACT_NO','ENGINE_NO')
 dataset<-dataset[!remove]
+dim(dataset) # 534361*318
 
 # 修改欄位型態
 setwd("~/")
@@ -31,6 +35,7 @@ length(which(tmp==1))
 apply(dataset[,which(tmp==1)],2,unique)
 dataset=dataset[,-which(tmp==1)]
 dim(dataset) # 534361*283
+write.csv(colnames(dataset)[which(tmp==1)],'group2_delete_variable.csv')
 
 # missing value補值 (刪完後有個變數需處理)
 tmp=sapply(dataset,function(x) length(which(is.na(x))))
@@ -41,6 +46,7 @@ round(tmp[which(tmp>0)]/nrow(dataset),5)
 dataset=dataset[ ,-which(colnames(dataset) %in% c('APC_MARRIAGE','APC_AGE','INS_ZIP_CODE'))]
 #刪除類別變數超過35類者
 dataset=dataset[,-which(colnames(dataset) %in% c('INTRDUCE_DIV_NO','COUNSEL_DIV_NO','AGENT_DIV_NO'))]
+dim(dataset) #534361*277
 
 # 遺失值少且重要的變數->有遺失值則整筆刪除
 u=Reduce(union,list(which(is.na(dataset$INS_MARRIAGE)),
@@ -48,6 +54,7 @@ u=Reduce(union,list(which(is.na(dataset$INS_MARRIAGE)),
                     which(dataset$APC_SEX=='')))
 length(u)/nrow(dataset)
 dataset=dataset[-u,] 
+dim(dataset) # 532214*277
 
 # 其他處理
 length(which(is.na(dataset[,'IS_ADD_OUTFIT'])))/nrow(dataset)
@@ -62,8 +69,11 @@ colnames(dataset)[grep('FOUR',colnames(dataset))]
 colnames(dataset)[grep('FIVE',colnames(dataset))]
 dataset=dataset[,-grep('FOUR',colnames(dataset))]
 dataset=dataset[,-grep('FIVE',colnames(dataset))]
+dim(dataset) #532214*213
 
+dataset_INSURE=dataset
 dataset=dataset[,-which(colnames(dataset)=='INSURE')]
 dim(dataset) #532214*212
+
 
 # copy=dataset
