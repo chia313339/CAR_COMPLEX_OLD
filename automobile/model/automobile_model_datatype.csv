@@ -1,0 +1,320 @@
+﻿COLNAME,TYPE,NA_NUM,NA_RATE,NFACTOR,MEMO
+CONTRACT_NO,character,0,0,459734,欄位內元素超過10種以上
+IS_CONTINUE_POLICY,factor,0,0,1,欄位內元素包涵： 1
+IS_NEW_POLICY,factor,0,0,1,欄位內元素包涵： 0
+UNIT_NO,factor,0,0,20,欄位內元素超過10種以上
+DISCOUNT_PREMIUM,integer,0,0,34552,欄位內元素超過10種以上
+IS_FORCE_DEGREE_CH,factor,0,0,2,欄位內元素包涵： 0， 1
+LIMIT_DRIVER,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_ISSUE_YEAR,integer,0,0,34,欄位內元素超過10種以上
+IS_ADD_OUTFIT,factor,16095,3.500937499,2,欄位內元素包涵： 0， 1
+IS_NEW_CAR,factor,0,0,2,欄位內元素包涵： N， Y
+IS_CHANGE_CARNO,factor,0,0,2,欄位內元素包涵： 0， 1
+ENGINE_NO,character,0,0,179458,欄位內元素超過10種以上
+BODY_CLAIM_CODE,integer,0,0,20,欄位內元素超過10種以上
+IS_TRADE_FORCE,factor,0,0,2,欄位內元素包涵： 0， 1
+VEHICLE_KIND_NO,factor,0,0,2,欄位內元素包涵： 03， 07
+CAR_AGE,integer,0,0,34,欄位內元素超過10種以上
+IS_MAIN_INSURED,factor,43651,9.49483832,1,欄位內元素包涵： Y
+INS_SEX,factor,43651,9.49483832,2,欄位內元素包涵： F， M
+INS_AGE,integer,43651,9.49483832,87,欄位內元素超過10種以上
+INS_MARRIAGE,factor,43693,9.503974037,2,欄位內元素包涵： 1， 2
+OCCU_CATCODE_INS,factor,459734,100,欄位所有元素皆為NA,欄位內元素包涵：NA
+IS_SAME,factor,43651,9.49483832,2,欄位內元素包涵： 0， 1
+APC_RELATION_INS,factor,45311,9.855916682,8,欄位內元素包涵： 1， 2， 3， 4， 5， 6， 7， 9
+APC_SEX,factor,43731,9.512239686,2,欄位內元素包涵： F， M
+APC_AGE,integer,343786,74.77932892,81,欄位內元素超過10種以上
+APC_MARRIAGE,factor,298621,64.95516973,2,欄位內元素包涵： 1， 2
+OCCU_CATCODE_APC,factor,459734,100,欄位所有元素皆為NA,欄位內元素包涵：NA
+INTRDUCE_DIV_NO,character,412023,89.62204231,788,欄位內元素超過10種以上
+INTRDUCE_KIND,factor,0,0,3,欄位內元素包涵： 1， 2， 5
+AGENT_DIV_NO,factor,0,0,6139,欄位內元素超過10種以上
+AGENT_KIND,factor,0,0,4,欄位內元素包涵： X1， X3， X8， XX
+BROKER_NO,factor,0,0,4,欄位內元素包涵： X1， X3， X8， XX
+COUNSEL_DIV_NO,character,0,0,378,欄位內元素超過10種以上
+CATEGORY_CODE,factor,0,0,13,欄位內元素超過10種以上
+CATEGORY_KIND,factor,0,0,1,欄位內元素包涵： 1
+ONE_INSUR_AMOUNT,integer,0,0,26428,欄位內元素超過10種以上
+ONE_INSUR_CNT,integer,0,0,7,欄位內元素包涵： 0， 1， 2， 3， 4， 5， 6
+TWO_INSUR_AMOUNT,integer,0,0,29323,欄位內元素超過10種以上
+TWO_INSUR_CNT,integer,0,0,9,欄位內元素包涵： 0， 1， 2， 3， 4， 5， 6， 7， 8
+THREE_INSUR_AMOUNT,integer,0,0,29777,欄位內元素超過10種以上
+THREE_INSUR_CNT,integer,0,0,11,欄位內元素超過10種以上
+FOUR_INSUR_AMOUNT,integer,0,0,29272,欄位內元素超過10種以上
+FOUR_INSUR_CNT,integer,0,0,12,欄位內元素超過10種以上
+FIVE_INSUR_AMOUNT,integer,0,0,29228,欄位內元素超過10種以上
+FIVE_INSUR_CNT,integer,0,0,12,欄位內元素超過10種以上
+ONE_PARK_CNT,integer,0,0,3,欄位內元素包涵： 0， 1， 2
+TWO_PARK_CNT,integer,0,0,4,欄位內元素包涵： 0， 1， 2， 3
+THREE_PARK_CNT,integer,0,0,4,欄位內元素包涵： 0， 1， 2， 3
+IS_BUMP,factor,0,0,2,欄位內元素包涵： 0， 1
+BUMP_CNT,integer,0,0,10,欄位內元素超過10種以上
+START_DATETIME,Date,0,0,1826,欄位內元素超過10種以上
+ONE_INSUR_AMOUNT_BODY,integer,0,0,26428,欄位內元素超過10種以上
+ONE_INSUR_CNT_BODY,integer,0,0,7,欄位內元素包涵： 0， 1， 2， 3， 4， 5， 6
+TWO_INSUR_AMOUNT_BODY,integer,0,0,29323,欄位內元素超過10種以上
+TWO_INSUR_CNT_BODY,integer,0,0,9,欄位內元素包涵： 0， 1， 2， 3， 4， 5， 6， 7， 8
+THREE_INSUR_AMOUNT_BODY,integer,0,0,29777,欄位內元素超過10種以上
+THREE_INSUR_CNT_BODY,integer,0,0,11,欄位內元素超過10種以上
+FOUR_INSUR_AMOUNT_BODY,integer,0,0,29272,欄位內元素超過10種以上
+FOUR_INSUR_CNT_BODY,integer,0,0,12,欄位內元素超過10種以上
+FIVE_INSUR_AMOUNT_BODY,integer,0,0,29228,欄位內元素超過10種以上
+FIVE_INSUR_CNT_BODY,integer,0,0,12,欄位內元素超過10種以上
+ONE_PARK_CNT_BODY,integer,0,0,3,欄位內元素包涵： 0， 1， 2
+TWO_PARK_CNT_BODY,integer,0,0,4,欄位內元素包涵： 0， 1， 2， 3
+THREE_PARK_CNT_BODY,integer,0,0,4,欄位內元素包涵： 0， 1， 2， 3
+IS_BUMP_BODY,factor,0,0,2,欄位內元素包涵： 0， 1
+BUMP_CNT_BODY,integer,0,0,10,欄位內元素超過10種以上
+ONE_INSUR_AMOUNT_BURG,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_BURG,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_BURG,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_BURG,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_BURG,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_BURG,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_BURG,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_THIRD,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_THIRD,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_THIRD,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_THIRD,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_THIRD,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_THIRD,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_THIRD,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_CUST,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_CUST,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_CUST,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_CUST,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_CUST,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_CUST,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_CUST,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_FORCE,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_FORCE,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_FORCE,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_FORCE,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_FORCE,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_FORCE,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_FORCE,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_OTHER,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_OTHER,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_OTHER,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_OTHER,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_OTHER,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_OTHER,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_OTHER,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_COM,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_COM,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_COM,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_COM,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_COM,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_COM,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_COM,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_C,integer,0,0,34869,欄位內元素超過10種以上
+ONE_INSUR_CNT_C,integer,0,0,18,欄位內元素超過10種以上
+TWO_INSUR_AMOUNT_C,integer,0,0,39286,欄位內元素超過10種以上
+TWO_INSUR_CNT_C,integer,0,0,26,欄位內元素超過10種以上
+THREE_INSUR_AMOUNT_C,integer,0,0,40212,欄位內元素超過10種以上
+THREE_INSUR_CNT_C,integer,0,0,28,欄位內元素超過10種以上
+FOUR_INSUR_AMOUNT_C,integer,0,0,39790,欄位內元素超過10種以上
+FOUR_INSUR_CNT_C,integer,0,0,28,欄位內元素超過10種以上
+FIVE_INSUR_AMOUNT_C,integer,0,0,39272,欄位內元素超過10種以上
+FIVE_INSUR_CNT_C,integer,0,0,30,欄位內元素超過10種以上
+ONE_PARK_CNT_C,integer,0,0,3,欄位內元素包涵： 0， 1， 2
+TWO_PARK_CNT_C,integer,0,0,5,欄位內元素包涵： 0， 1， 2， 3， 4
+THREE_PARK_CNT_C,integer,0,0,5,欄位內元素包涵： 0， 1， 2， 3， 4
+IS_BUMP_C,integer,0,0,2,欄位內元素包涵： 0， 1
+BUMP_CNT_C,integer,0,0,27,欄位內元素超過10種以上
+ONE_INSUR_AMOUNT_BODY_C,integer,0,0,25710,欄位內元素超過10種以上
+ONE_INSUR_CNT_BODY_C,integer,0,0,9,欄位內元素包涵： 0， 1， 11， 2， 3， 4， 5， 6， 9
+TWO_INSUR_AMOUNT_BODY_C,integer,0,0,28424,欄位內元素超過10種以上
+TWO_INSUR_CNT_BODY_C,integer,0,0,12,欄位內元素超過10種以上
+THREE_INSUR_AMOUNT_BODY_C,integer,0,0,28800,欄位內元素超過10種以上
+THREE_INSUR_CNT_BODY_C,integer,0,0,14,欄位內元素超過10種以上
+FOUR_INSUR_AMOUNT_BODY_C,integer,0,0,28339,欄位內元素超過10種以上
+FOUR_INSUR_CNT_BODY_C,integer,0,0,15,欄位內元素超過10種以上
+FIVE_INSUR_AMOUNT_BODY_C,integer,0,0,28336,欄位內元素超過10種以上
+FIVE_INSUR_CNT_BODY_C,integer,0,0,16,欄位內元素超過10種以上
+ONE_PARK_CNT_BODY_C,integer,0,0,3,欄位內元素包涵： 0， 1， 2
+TWO_PARK_CNT_BODY_C,integer,0,0,4,欄位內元素包涵： 0， 1， 2， 3
+THREE_PARK_CNT_BODY_C,integer,0,0,4,欄位內元素包涵： 0， 1， 2， 3
+IS_BUMP_BODY_C,factor,0,0,2,欄位內元素包涵： 0， 1
+BUMP_CNT_BODY_C,integer,0,0,20,欄位內元素超過10種以上
+ONE_INSUR_AMOUNT_BURG_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_BURG_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_BURG_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_BURG_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_BURG_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_BURG_C,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_BURG_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_THIRD_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_THIRD_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_THIRD_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_THIRD_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_THIRD_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_THIRD_C,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_THIRD_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_CUST_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_CUST_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_CUST_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_CUST_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_CUST_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_CUST_C,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_CUST_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_FORCE_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_FORCE_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_FORCE_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_FORCE_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_FORCE_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_FORCE_C,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_FORCE_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_OTHER_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_OTHER_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_OTHER_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_OTHER_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_OTHER_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_OTHER_C,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_OTHER_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_INSUR_AMOUNT_COM_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+ONE_INSUR_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_INSUR_AMOUNT_COM_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+TWO_INSUR_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_INSUR_AMOUNT_COM_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+THREE_INSUR_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+FOUR_INSUR_AMOUNT_COM_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FOUR_INSUR_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+FIVE_INSUR_AMOUNT_COM_C,integer,0,0,1,欄位內元素包涵：  0000000000000.00
+FIVE_INSUR_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+ONE_PARK_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+TWO_PARK_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+THREE_PARK_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+IS_BUMP_COM_C,factor,0,0,1,欄位內元素包涵： 0
+BUMP_CNT_COM_C,integer,0,0,1,欄位內元素包涵： 0
+DRIVER_CONCLUDE_AMOUNT_1Y,integer,0,0,23043,欄位內元素超過10種以上
+DRIVER_TIMES_1Y,integer,0,0,9,欄位內元素包涵： 0， 1， 2， 3， 4， 5， 6， 7， 8
+DRIVER_CONCLUDE_AMOUNT_2Y,integer,0,0,26706,欄位內元素超過10種以上
+DRIVER_TIMES_2Y,integer,0,0,11,欄位內元素超過10種以上
+DRIVER_CONCLUDE_AMOUNT_3Y,integer,0,0,27836,欄位內元素超過10種以上
+DRIVER_TIMES_3Y,integer,0,0,13,欄位內元素超過10種以上
+BODY_MAIN,factor,0,0,4,欄位內元素包涵： 1， 2， 3， 4
+IS_UNCLEAR,factor,0,0,2,欄位內元素包涵： 0， 1
+IS_WEATHER,factor,0,0,2,欄位內元素包涵： 0， 1
+IS_HUMAN,factor,0,0,2,欄位內元素包涵： 0， 1
+IS_DEPRECIATION,factor,0,0,2,欄位內元素包涵： 0， 1
+IS_RECOVERY,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_ZIP_CODE,factor,452710,98.47215999,304,欄位內元素超過10種以上
+INS_SCHOOL_DEGREE,factor,459734,100,欄位所有元素皆為NA,欄位內元素包涵：NA
+INS_IS_ONE_YEAR_REPAIR,integer,0,0,1,欄位內元素包涵： 0
+INS_IS_TERR,factor,0,0,1,欄位內元素包涵： 0
+APC_IS_TERR,factor,0,0,1,欄位內元素包涵： 0
+INS_SAN,factor,0,0,1,欄位內元素包涵： 0
+APC_SAN,factor,0,0,1,欄位內元素包涵： 0
+INS_AM,factor,0,0,1,欄位內元素包涵： 0
+APC_AM,factor,0,0,1,欄位內元素包涵： 0
+INS_SIP,factor,0,0,2,欄位內元素包涵： 0， 1
+APC_SIP,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_ML_TF,factor,0,0,1,欄位內元素包涵： 0
+APC_ML_TF,factor,0,0,1,欄位內元素包涵： 0
+INS_IS_INSUR_STRICT,factor,0,0,2,欄位內元素包涵： 0， 1
+APC_IS_INSUR_STRICT,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_IS_REPAIR,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_IS_DRUNK_DRIVING,factor,0,0,1,欄位內元素包涵： 0
+INS_IS_MAIN_CAUSE,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_IS_CLAIM_MANY,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_IS_BAD_CUSTOMER,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_IS_MORALS_RISK,factor,0,0,2,欄位內元素包涵： 0， 1
+INS_IS_FRAUD_GROUP,factor,0,0,2,欄位內元素包涵： 0， 1
+DEPRECIA_RATE,numeric,0,0,7,欄位內元素包涵：  000.0000，  000.1000，  000.1500，  000.2000，  000.2500，  000.3000，  001.0000
+IS_HPRICE_CAR,factor,0,0,2,欄位內元素包涵： 0， 1
+DISCOUNT_PREMIUM_AGN,numeric,0,0,350,欄位內元素超過10種以上
+CONCLUDE_NTD_AMOUNT_AGN,numeric,0,0,297,欄位內元素超過10種以上
+POLICY_COUNT_AGN,numeric,0,0,246,欄位內元素超過10種以上
+LOSS_RATE_AGN,numeric,0,0,101,欄位內元素超過10種以上
+INSRNCE_AMOUNT,numeric,0,0,4607,欄位內元素超過10種以上
+INSURE,integer,402434,87.53627097,25703,欄位內元素超過10種以上
+LOSS_RATE,numeric,0,0,4039,欄位內元素超過10種以上
